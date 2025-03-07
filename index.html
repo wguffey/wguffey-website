@@ -6,18 +6,26 @@
     <title>Will Guffey</title>
     
     <link rel="icon" href="w.png">
-    <!-- <link rel="icon" href="tree-small.png"> -->
-    <!-- <link rel="alternate icon" href="w.png"> -->
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap" rel="stylesheet">
-
+    
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" 
-            onload="renderMathInElement(document.body);"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.18"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F50FDJLZL6"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-F50FDJLZL6');
+    </script>
+
 </head>
 <body>
 
@@ -38,6 +46,12 @@
                     <p>
                         I have a wide variety of interests, including mathematics, physics, financial markets, philosophy, art, and music.
                     </p>
+                    <!-- <ul>
+                        <li>Extremely rigorous, critical thinker; self-motivated, detail-oriented.</li>
+                        <li>Excellent team player, but can also work independently in a fast-paced environment.</li>
+                        <li>Strong communication skills</li>
+                        <li>Adaptability and continuous learning</li>
+                    </ul> -->
                 </div>
                 <div class="journey-image">
                     <img src="car.gif" alt="Journey" width="200" style="object-fit: contain; max-height: 200px;">
@@ -47,6 +61,124 @@
 
         <section id="resume">
             <h2>Resume</h2>
+                <p>Explore my resume by clicking on nodes.</p>
+                <p>Use Ctrl + Scroll to zoom in and out. Use Left Mouse Click + Mouse Move to pan.</p>
+                <div class="markmap">
+                <script type="text/template">
+                    ---
+                    markmap: 
+                    ---
+
+                    # Will Guffey
+
+                    ## Education
+                    ### School
+                    - The University of North Carolina at Chapel Hill
+                    ### Degrees
+                    - BA Physics
+                    - BA Mathematics
+                    ### When
+                    - Aug 2015 - May 2018
+                    - Completed all major classes in 5 semesters.
+
+                    ## Work Experience
+                    ### Miso Robotics (2017 - 2024)
+                    #### Roles
+                    - Simulations Intern (May 2017)
+                    - Robotics Engineer (Jan 2018)
+                    - Senior Robotics Engineer (Jan 2020)
+                    - Lead Robotics Engineer (Mar 2021)
+                    - Software Engineering Manager (Apr 2022)
+                    #### Selected Accomplishments <!-- markmap: fold -->
+                    - Team leadership: Led the robot movement team, which was responsible for all software 
+                    related to moving our 7 DOF fryer cooking robot.
+                    - Robot behavior platform: Created framework for defining robot behaviors. Notable aspects 
+                    of this framework were its well-defined configuration management and automated testing systems.
+                    This allowed us to support many configurations with ease.
+                    - Motion planning: Responsible for and worked heavily on our path planning stack, including 
+                    a custom implementation of Trajopt for kinematics planning and an MPC layer for dynamics 
+                    and trajectory smoothing.
+                    - Observability platform: Made significant contributions to our observability platform, 
+                    including data lake architecture, setting up dashboards/alerts on Grafana and led the 
+                    team’s adoption of them.
+                    - Academic research engagements: Was the lead facilitator of two collaborations between 
+                    Miso and Caltech’s AMBER lab (premier robotics research lab led by prof. Aaron Ames).
+                    - Other notables: Computer vision performance engineering, extrinsic camera calibration routine,
+                     system identification, scheduling algorithms, custom state machines, and CI/CD architecture.
+
+                    ### Tenfour AI (2024)
+                    #### Roles
+                    - Co-founder / Chief Product Officer / Lead Software Engineer (Apr 2024 - Dec 2024)
+                    #### Selected Accomplishments <!-- markmap: fold -->
+                    - AI order taking system: Built a proof-of-concept order taking system for restaurants.
+                    A demo of an early version of this system can be seen here. Lots of hands-on experience
+                    testing and fine-tuning models, working with data for model training, and designing
+                    low-latency and reliable agentic workflows.
+                    - Automated testing for AI systems: Built testing framework for the order taking system.
+                    This involved automated tests for speech-to-text and order prediction systems.
+
+                    ## Skills
+                    ### Programming languages <!-- markmap: fold -->
+                    - Python (advanced) (10 years)
+                    - C++ (7 years)
+                    - C (3 years)
+                    - JavaScript (5 years)
+                    - SQL (8 years)
+                    - Bash (8 years)
+
+                    ### Frameworks / Platforms / Libraries <!-- markmap: fold -->
+                    - React
+                    - NextJS
+                    - LangChain
+                    - Docker
+                    - OpenCV
+                    - Pytest
+                    - Unittest
+                    - ROS
+                    - Gazebo
+                    - git
+                    - GitHub Actions
+                    - Jenkins
+                    - Grafana
+                    - Terraform
+                    - SQLAlchemy
+                    - Kubernetes
+                    - Ansible
+                    - PUML
+                    - debuggers (pudb, gdb, Valgrind)
+
+                    ### Cloud specific <!-- markmap: fold -->
+                    - AWS (Step Functions, Athena, S3, Glue Crawler, IoT Greengrass, Lambdas, etc)
+                    - GCP (cloud functions, container registry, etc.)
+
+                    ### Soft skills <!-- markmap: fold -->
+                    - Engineering management
+                    - Strategy and alignment between orgs
+                    - Project planning
+                    - Translating academic literature to code
+
+                    ### Fundamentals <!-- markmap: fold -->
+                    - Object Oriented Programming
+                    - Design Patterns
+                    - Optimization problems
+                    - Model Predictive Control
+                    - Networking (TCP, Modbus)
+                    - PDEs
+                    - Linear algebra
+                    - Statistics
+
+                    ## Papers and Patents
+                    - [Safety-critical manipulation for collision-free food preparation
+                    (Finalist for Best Paper at IROS 2022)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7zmjYzIAAAAJ&authuser=1&citation_for_view=7zmjYzIAAAAJ:u-x6o8ySG0sC)
+                    - [Direct collocation for dynamic behaviors
+                    with nonprehensile contacts: Application to flipping burgers](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7zmjYzIAAAAJ&authuser=1&citation_for_view=7zmjYzIAAAAJ:u5HHmVD_uO8C)
+                    - [Automated bin system for accepting food
+                    items in robotic kitchen workspace](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=7zmjYzIAAAAJ&authuser=1&citation_for_view=7zmjYzIAAAAJ:d1gkVwhDpl0C)
+
+                </script>
+            </div>
+
+
             <div class="resume-content" id="resume-content">
                 <div class="pdf-container">
                     <iframe src="will-guffey-resume.pdf" width="100%" height="400px"></iframe>
@@ -59,7 +191,7 @@
             
             <div class="contact-item">
                 <div class="contact-label">Email</div>
-                <div class="contact-value">guffeywilliam "at" gmail "dot" com</div>
+                <div class="contact-value">notspamguffeywilliam@gmail.com (remove notspam)</div>
             </div>
             
             <div class="contact-item">
@@ -67,8 +199,10 @@
                 <div class="contact-value"><a href="https://linkedin.com/in/will-guffey" target="_blank" rel="noopener noreferrer">will-guffey</a></div>
             </div>
         </section>
+
     </main>
 
     <script src="main.js"></script>
+
 </body>
 </html>
