@@ -1,4 +1,33 @@
-python:
-- duration:
+- python:
+  years of usage: 10
+  particular experiences:
+  - robotics:
+    - path planning: 
+        - trajopt + custom MPC layer
+    - robot behavior system
 
-- particular experience:
+  - 
+
+
+React
+NextJS
+LangChain
+Docker
+OpenCV
+Pytest
+Unittest
+ROS
+Gazebo
+git
+GitHub Actions
+Jenkins
+Grafana
+Terraform
+SQLAlchemy
+Kubernetes
+Ansible
+PUML
+debuggers
+  pudb
+  gdb
+  Valgrind
