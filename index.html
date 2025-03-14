@@ -32,8 +32,8 @@
     <main>
         <section id="about">
             <div class="about-container">
-                <div class="profile-image">
-                    <img src="me.png" alt="Will Guffey" width="200">
+                <div class="blob">
+                    <img src="me.png" alt="Will Guffey" class="blob-image">
                 </div>
                 <div class="about-content">
                     <p>Hi, I'm Will.</p>
@@ -44,10 +44,9 @@
                     <blockquote class="quote-box">
                         <p>"Lady Luck favors the one who tries."</p>
                     </blockquote>
-
                 </div>
                 <div class="journey-image">
-                    <img src="car.gif" alt="Journey" width="200" style="object-fit: contain; max-height: 200px;">
+                    <img src="car.gif" alt="Journey" class="cargif" width="200" style="object-fit: contain; max-height: 200px;">
                 </div>
             </div>
         </section>
@@ -78,6 +77,18 @@
     </main>
 
     <script src="main.js"></script>
+
+    <!-- SVG filter for distortion effect -->
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: none;">
+        <defs>
+            <filter id="distortionFilter">
+                <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="3" result="warp" id="turbulence" />
+                <feDisplacementMap in="SourceGraphic" in2="warp" scale="30" />
+                <animate xlink:href="#turbulence" attributeName="baseFrequency" from="0.01" to="0.1" dur="5s" repeatCount="indefinite" />
+                <animate xlink:href="#displacement" attributeName="scale" from="3" to="30" dur="5s" repeatCount="indefinite" />
+            </filter>
+        </defs>
+    </svg>
 
 </body>
 </html>

@@ -432,3 +432,44 @@ blockquote.quote-box {
 blockquote.quote-box p {
     margin: 0;
 }
+
+.blob {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 58% 43% 33% 64% / 50% 38% 53% 50%;
+    background: transparent;
+    box-shadow: inset 6px 33px 20px 0 #c9c9c9,
+                inset 20px 80px 15px 0 #e0e0e0,
+                10px 20px 20px 0px #c9c9c9;
+    overflow: hidden;
+    animation: ripple 5s infinite alternate;
+}
+
+.blob-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+    /* filter: url(#distortionFilter); */
+}
+
+/* Keyframes for ripple effect */
+@keyframes ripple {
+    0% {
+        border-radius: 58% 43% 33% 64% / 50% 38% 53% 50%;
+    }
+    50% {
+        border-radius: 60% 40% 35% 62% / 52% 36% 55% 48%;
+    }
+    100% {
+        border-radius: 58% 43% 33% 64% / 50% 38% 53% 50%;
+    }
+}
+
+.cargif {
+    filter: grayscale(100%) brightness(1.5);
+}
