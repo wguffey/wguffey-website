@@ -58,7 +58,6 @@ main {
 section {
     margin-bottom: 3rem;
     padding-bottom: 2rem;
-    /* border-bottom: 1px solid var(--border-color); */
 }
 
 section:last-child {
@@ -129,6 +128,7 @@ header {
     border: 1px solid var(--border-color);
     width: 100%;
     margin-bottom: 1rem;
+    /* height: fit-content; */
 }
 
 iframe {
@@ -341,8 +341,6 @@ svg.markmap {
 }
 
 .project-link:hover {
-    /* background-color: var(--accent-color); */
-    /* color: var(--bg-color); */
     text-decoration: none;
 }
 
@@ -350,60 +348,6 @@ svg.markmap {
     margin-right: 0.5rem;
 }
 
-/* Video Modal */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    overflow: auto;
-}
-
-.modal-content {
-    position: relative;
-    margin: 5% auto;
-    width: 80%;
-    max-width: 800px;
-    animation: modalFadeIn 0.3s;
-}
-
-@keyframes modalFadeIn {
-    from {opacity: 0; transform: translateY(-50px);}
-    to {opacity: 1; transform: translateY(0);}
-}
-
-.close-modal {
-    position: absolute;
-    right: -40px;
-    top: 0;
-    color: white;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-    z-index: 1001;
-}
-
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
-    overflow: hidden;
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-/* Responsive adjustments for projects */
 @media (max-width: 768px) {
     .projects-card-container {
         grid-template-columns: 1fr;
@@ -437,13 +381,9 @@ blockquote.quote-box p {
     position: relative;
     height: 150px;
     width: 150px;
-    border-radius: 58% 43% 33% 64% / 50% 38% 53% 50%;
-    background: transparent;
-    box-shadow: inset 6px 33px 20px 0 #c9c9c9,
-                inset 20px 80px 15px 0 #e0e0e0,
-                10px 20px 20px 0px #c9c9c9;
+    /* border-radius: 58% 43% 43% 64% / 50% 38% 53% 50%; */
     overflow: hidden;
-    animation: ripple 5s infinite alternate;
+    border-radius: 8px;
 }
 
 .blob-image {
@@ -453,21 +393,7 @@ blockquote.quote-box p {
     transform: translate(-50%, -50%) scale(1.2);
     width: 100%;
     height: auto;
-    opacity: 0.8;
-    /* filter: url(#distortionFilter); */
-}
-
-/* Keyframes for ripple effect */
-@keyframes ripple {
-    0% {
-        border-radius: 58% 43% 33% 64% / 50% 38% 53% 50%;
-    }
-    50% {
-        border-radius: 60% 40% 35% 62% / 52% 36% 55% 48%;
-    }
-    100% {
-        border-radius: 58% 43% 33% 64% / 50% 38% 53% 50%;
-    }
+    filter: grayscale(100%);
 }
 
 .cargif {
