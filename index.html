@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Will Guffey</title>
   <link rel="icon" href="w.png">
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;700&display=swap" rel="stylesheet">
-  
+
   <link rel="stylesheet" href="style.css">
-  
+
   <script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.18"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-F50FDJLZL6"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-F50FDJLZL6');
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 </head>
+
 <body>
   <main>
     <section id="about">
@@ -31,17 +34,20 @@
         </div>
         <div class="about-content">
           <p>Hi, I'm Will.</p>
-          <p>I have a wide variety of interests, including computer science, mathematics, physics, financial markets, philosophy, art, and music.</p>
-          <p>I love working with computers and am constantly trying to deepen my understanding of how to use them. I have about 8 years of professional software engineering experience but have the eagerness and curiosity of day one.</p>
-          <p>I enjoy automating things and building elegant, performant, and useful systems. I approach problems with an effective balance of rigor and pragmatism.</p>  
-          <p>In addition to building, I enjoy and am good at people and project management.</p>  
+          <p>I have a wide variety of interests, including computer science, mathematics, physics, financial markets,
+            philosophy, art, and music.</p>
+          <p>I love working with computers and am constantly trying to deepen my understanding of how to use them. I
+            have about 8 years of professional software engineering experience but have the eagerness and curiosity of
+            day one.</p>
+          <p>I enjoy automating things and building elegant, performant, and useful systems. I approach problems with an
+            effective balance of rigor and pragmatism.</p>
+          <p>In addition to building, I enjoy and am good at people and project management.</p>
           <blockquote class="quote-box">
             <p>"Lady Luck favors the one who tries." - Barbara Oakley</p>
           </blockquote>
         </div>
       </div>
     </section>
-
     <section id="contact">
       <h2>How to reach me</h2>
       <div class="contact-item">
@@ -55,7 +61,6 @@
         </div>
       </div>
     </section>
-
     <section id="resume">
       <h2>Resume</h2>
       <div class="resume-content">
@@ -64,19 +69,23 @@
         </div>
       </div>
     </section>
+    <section id="mochi">
+      <h2>Flashcard Activity</h2>
+      <canvas id="mochiChart" style="max-width: auto; height: 220px"></canvas>
+    </section>
   </main>
-  
   <script src="main.js"></script>
-
   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: none;">
     <defs>
       <filter id="distortionFilter">
         <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="3" result="warp" id="turbulence" />
         <feDisplacementMap in="SourceGraphic" in2="warp" scale="30" />
-        <animate xlink:href="#turbulence" attributeName="baseFrequency" from="0.01" to="0.1" dur="5s" repeatCount="indefinite" />
+        <animate xlink:href="#turbulence" attributeName="baseFrequency" from="0.01" to="0.1" dur="5s"
+          repeatCount="indefinite" />
         <animate xlink:href="#displacement" attributeName="scale" from="3" to="30" dur="5s" repeatCount="indefinite" />
       </filter>
     </defs>
   </svg>
 </body>
+
 </html>
