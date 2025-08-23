@@ -672,7 +672,7 @@
   {
     "day": "2025-06-02",
     "learned": 0,
-    "reviewed": 42
+    "reviewed": 46
   },
   {
     "day": "2025-06-03",
@@ -982,6 +982,11 @@
   {
     "day": "2025-08-21",
     "learned": 0,
-    "reviewed": 16
+    "reviewed": 25
+  },
+  {
+    "day": "2025-08-22",
+    "learned": 3,
+    "reviewed": 6
   }
 ]
