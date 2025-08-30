@@ -1016,7 +1016,12 @@
   },
   {
     "day": "2025-08-29",
-    "learned": 15,
-    "reviewed": 28
+    "learned": 19,
+    "reviewed": 32
+  },
+  {
+    "day": "2025-08-30",
+    "learned": 0,
+    "reviewed": 20
   }
 ]
