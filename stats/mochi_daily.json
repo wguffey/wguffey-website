@@ -1021,12 +1021,12 @@
   },
   {
     "day": "2025-08-26",
-    "learned": 1,
-    "reviewed": 3
+    "learned": 5,
+    "reviewed": 7
   },
   {
     "day": "2025-08-27",
-    "learned": 4,
+    "learned": 0,
     "reviewed": 13
   },
   {
@@ -1047,7 +1047,7 @@
   {
     "day": "2025-08-31",
     "learned": 0,
-    "reviewed": 21
+    "reviewed": 25
   },
   {
     "day": "2025-09-01",
@@ -1133,5 +1133,15 @@
     "day": "2025-09-17",
     "learned": 1,
     "reviewed": 6
+  },
+  {
+    "day": "2025-09-18",
+    "learned": 0,
+    "reviewed": 34
+  },
+  {
+    "day": "2025-09-19",
+    "learned": 7,
+    "reviewed": 22
   }
 ]
