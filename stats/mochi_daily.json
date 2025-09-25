@@ -1216,7 +1216,17 @@
   },
   {
     "day": "2025-09-23",
-    "learned": 1,
-    "reviewed": 47
+    "learned": 2,
+    "reviewed": 48
+  },
+  {
+    "day": "2025-09-24",
+    "learned": 29,
+    "reviewed": 50
+  },
+  {
+    "day": "2025-09-25",
+    "learned": 8,
+    "reviewed": 48
   }
 ]
