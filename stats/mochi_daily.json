@@ -1306,7 +1306,12 @@
   },
   {
     "day": "2025-10-13",
-    "learned": 0,
-    "reviewed": 18
+    "learned": 1,
+    "reviewed": 19
+  },
+  {
+    "day": "2025-10-14",
+    "learned": 4,
+    "reviewed": 12
   }
 ]
