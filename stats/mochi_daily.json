@@ -1373,5 +1373,20 @@
     "day": "2025-10-26",
     "learned": 1,
     "reviewed": 12
+  },
+  {
+    "day": "2025-10-27",
+    "learned": 0,
+    "reviewed": 20
+  },
+  {
+    "day": "2025-10-28",
+    "learned": 3,
+    "reviewed": 44
+  },
+  {
+    "day": "2025-10-29",
+    "learned": 1,
+    "reviewed": 20
   }
 ]
