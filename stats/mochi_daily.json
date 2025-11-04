@@ -1403,5 +1403,15 @@
     "day": "2025-11-01",
     "learned": 0,
     "reviewed": 67
+  },
+  {
+    "day": "2025-11-02",
+    "learned": 2,
+    "reviewed": 42
+  },
+  {
+    "day": "2025-11-03",
+    "learned": 6,
+    "reviewed": 21
   }
 ]
