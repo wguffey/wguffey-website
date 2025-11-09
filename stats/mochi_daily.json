@@ -1102,7 +1102,7 @@
   {
     "day": "2025-08-31",
     "learned": 0,
-    "reviewed": 39
+    "reviewed": 40
   },
   {
     "day": "2025-09-01",
@@ -1428,5 +1428,15 @@
     "day": "2025-11-07",
     "learned": 0,
     "reviewed": 51
+  },
+  {
+    "day": "2025-11-08",
+    "learned": 0,
+    "reviewed": 14
+  },
+  {
+    "day": "2025-11-09",
+    "learned": 0,
+    "reviewed": 14
   }
 ]
