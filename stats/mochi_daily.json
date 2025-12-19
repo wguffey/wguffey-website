@@ -887,7 +887,7 @@
   {
     "day": "2025-07-16",
     "learned": 15,
-    "reviewed": 23
+    "reviewed": 24
   },
   {
     "day": "2025-07-18",
@@ -897,7 +897,7 @@
   {
     "day": "2025-07-19",
     "learned": 0,
-    "reviewed": 7
+    "reviewed": 8
   },
   {
     "day": "2025-07-20",
@@ -932,7 +932,7 @@
   {
     "day": "2025-07-28",
     "learned": 5,
-    "reviewed": 13
+    "reviewed": 14
   },
   {
     "day": "2025-07-29",
@@ -957,7 +957,7 @@
   {
     "day": "2025-08-02",
     "learned": 8,
-    "reviewed": 34
+    "reviewed": 35
   },
   {
     "day": "2025-08-03",
@@ -972,7 +972,7 @@
   {
     "day": "2025-08-05",
     "learned": 6,
-    "reviewed": 74
+    "reviewed": 75
   },
   {
     "day": "2025-08-06",
@@ -992,7 +992,7 @@
   {
     "day": "2025-08-09",
     "learned": 0,
-    "reviewed": 33
+    "reviewed": 34
   },
   {
     "day": "2025-08-10",
@@ -1022,7 +1022,7 @@
   {
     "day": "2025-08-15",
     "learned": 1,
-    "reviewed": 9
+    "reviewed": 10
   },
   {
     "day": "2025-08-16",
@@ -1032,7 +1032,7 @@
   {
     "day": "2025-08-17",
     "learned": 3,
-    "reviewed": 44
+    "reviewed": 45
   },
   {
     "day": "2025-08-18",
@@ -1112,7 +1112,7 @@
   {
     "day": "2025-09-02",
     "learned": 0,
-    "reviewed": 22
+    "reviewed": 23
   },
   {
     "day": "2025-09-03",
@@ -1202,7 +1202,7 @@
   {
     "day": "2025-09-20",
     "learned": 11,
-    "reviewed": 28
+    "reviewed": 29
   },
   {
     "day": "2025-09-21",
@@ -1222,12 +1222,12 @@
   {
     "day": "2025-09-24",
     "learned": 29,
-    "reviewed": 51
+    "reviewed": 53
   },
   {
     "day": "2025-09-25",
     "learned": 25,
-    "reviewed": 70
+    "reviewed": 72
   },
   {
     "day": "2025-09-26",
@@ -1237,7 +1237,7 @@
   {
     "day": "2025-09-27",
     "learned": 34,
-    "reviewed": 98
+    "reviewed": 100
   },
   {
     "day": "2025-09-28",
@@ -1257,7 +1257,7 @@
   {
     "day": "2025-10-01",
     "learned": 1,
-    "reviewed": 35
+    "reviewed": 37
   },
   {
     "day": "2025-10-02",
@@ -1272,7 +1272,7 @@
   {
     "day": "2025-10-04",
     "learned": 1,
-    "reviewed": 68
+    "reviewed": 69
   },
   {
     "day": "2025-10-06",
@@ -1292,7 +1292,7 @@
   {
     "day": "2025-10-09",
     "learned": 3,
-    "reviewed": 66
+    "reviewed": 68
   },
   {
     "day": "2025-10-10",
@@ -1317,12 +1317,12 @@
   {
     "day": "2025-10-15",
     "learned": 23,
-    "reviewed": 47
+    "reviewed": 48
   },
   {
     "day": "2025-10-16",
     "learned": 3,
-    "reviewed": 66
+    "reviewed": 67
   },
   {
     "day": "2025-10-17",
@@ -1332,7 +1332,7 @@
   {
     "day": "2025-10-18",
     "learned": 4,
-    "reviewed": 52
+    "reviewed": 53
   },
   {
     "day": "2025-10-19",
@@ -1342,17 +1342,17 @@
   {
     "day": "2025-10-20",
     "learned": 0,
-    "reviewed": 25
+    "reviewed": 26
   },
   {
     "day": "2025-10-21",
     "learned": 1,
-    "reviewed": 21
+    "reviewed": 22
   },
   {
     "day": "2025-10-22",
     "learned": 3,
-    "reviewed": 47
+    "reviewed": 48
   },
   {
     "day": "2025-10-23",
@@ -1362,12 +1362,12 @@
   {
     "day": "2025-10-24",
     "learned": 0,
-    "reviewed": 66
+    "reviewed": 67
   },
   {
     "day": "2025-10-25",
     "learned": 0,
-    "reviewed": 33
+    "reviewed": 36
   },
   {
     "day": "2025-10-26",
@@ -1387,7 +1387,7 @@
   {
     "day": "2025-10-29",
     "learned": 4,
-    "reviewed": 27
+    "reviewed": 28
   },
   {
     "day": "2025-10-30",
@@ -1402,7 +1402,7 @@
   {
     "day": "2025-11-01",
     "learned": 0,
-    "reviewed": 76
+    "reviewed": 77
   },
   {
     "day": "2025-11-02",
@@ -1427,7 +1427,7 @@
   {
     "day": "2025-11-07",
     "learned": 0,
-    "reviewed": 60
+    "reviewed": 61
   },
   {
     "day": "2025-11-08",
@@ -1558,5 +1558,10 @@
     "day": "2025-12-16",
     "learned": 0,
     "reviewed": 47
+  },
+  {
+    "day": "2025-12-17",
+    "learned": 0,
+    "reviewed": 9
   }
 ]
