@@ -1137,7 +1137,7 @@
   {
     "day": "2025-09-07",
     "learned": 0,
-    "reviewed": 13
+    "reviewed": 14
   },
   {
     "day": "2025-09-08",
@@ -1262,12 +1262,12 @@
   {
     "day": "2025-10-02",
     "learned": 18,
-    "reviewed": 73
+    "reviewed": 77
   },
   {
     "day": "2025-10-03",
     "learned": 4,
-    "reviewed": 49
+    "reviewed": 53
   },
   {
     "day": "2025-10-04",
@@ -1277,7 +1277,7 @@
   {
     "day": "2025-10-06",
     "learned": 0,
-    "reviewed": 90
+    "reviewed": 94
   },
   {
     "day": "2025-10-07",
@@ -1302,7 +1302,7 @@
   {
     "day": "2025-10-12",
     "learned": 3,
-    "reviewed": 140
+    "reviewed": 144
   },
   {
     "day": "2025-10-13",
@@ -1312,12 +1312,12 @@
   {
     "day": "2025-10-14",
     "learned": 11,
-    "reviewed": 30
+    "reviewed": 31
   },
   {
     "day": "2025-10-15",
     "learned": 23,
-    "reviewed": 86
+    "reviewed": 87
   },
   {
     "day": "2025-10-16",
@@ -1327,7 +1327,7 @@
   {
     "day": "2025-10-17",
     "learned": 12,
-    "reviewed": 51
+    "reviewed": 52
   },
   {
     "day": "2025-10-18",
@@ -1347,7 +1347,7 @@
   {
     "day": "2025-10-21",
     "learned": 1,
-    "reviewed": 38
+    "reviewed": 39
   },
   {
     "day": "2025-10-22",
@@ -1362,7 +1362,7 @@
   {
     "day": "2025-10-24",
     "learned": 0,
-    "reviewed": 91
+    "reviewed": 95
   },
   {
     "day": "2025-10-25",
@@ -1387,12 +1387,12 @@
   {
     "day": "2025-10-29",
     "learned": 4,
-    "reviewed": 44
+    "reviewed": 45
   },
   {
     "day": "2025-10-30",
     "learned": 3,
-    "reviewed": 69
+    "reviewed": 70
   },
   {
     "day": "2025-10-31",
@@ -1407,7 +1407,7 @@
   {
     "day": "2025-11-02",
     "learned": 2,
-    "reviewed": 76
+    "reviewed": 77
   },
   {
     "day": "2025-11-03",
@@ -1427,7 +1427,7 @@
   {
     "day": "2025-11-07",
     "learned": 0,
-    "reviewed": 78
+    "reviewed": 79
   },
   {
     "day": "2025-11-08",
@@ -1628,5 +1628,10 @@
     "day": "2026-01-04",
     "learned": 0,
     "reviewed": 72
+  },
+  {
+    "day": "2026-01-07",
+    "learned": 0,
+    "reviewed": 12
   }
 ]
